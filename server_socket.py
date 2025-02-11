@@ -12,6 +12,6 @@ while True:
 	print(f"connected with c {c} and addr {addr} and name is {name}")
 	c.send(bytes('Weolcome to Server', 'utf-8'))
 	c.close()
-
+print('close')
 
 
