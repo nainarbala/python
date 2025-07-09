@@ -11,3 +11,6 @@ print(course[0:28])
 
 course1 = "Pythin \\Test"
 print(course1)
+
+name = "John"
+print(name[0:-10])
