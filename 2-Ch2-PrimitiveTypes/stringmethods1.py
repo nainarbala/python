@@ -1,0 +1,12 @@
+course = "   python programming   "
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(course.strip())
+print(course.lstrip())
+print(course.rstrip())
+print(course.find("pro"))
+print(course.find("prO"))
+print(course.replace("pro", "PRO"))
+print("pro" in course)
+print("PRO" not in course)
