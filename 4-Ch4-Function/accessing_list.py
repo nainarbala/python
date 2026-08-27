@@ -1,0 +1,10 @@
+numbers = list(range(20))
+
+print(numbers[0])
+print(numbers[:0])
+print(numbers[-1: 0])
+print(numbers[:-1])
+print(numbers[-1])
+print(numbers[::-1])
+print(numbers[::4])
+print(numbers[::-2])
