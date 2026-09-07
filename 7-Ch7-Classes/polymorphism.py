@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 
 
 class UIControl(ABC):
+    @abstractmethod
     def draw(self):
         pass
 
@@ -12,7 +13,7 @@ class Textbox(UIControl):
 
 
 class DropDown(UIControl):
-    def draw(slef):
+    def draw(self):
         print("DropDown")
 
 
