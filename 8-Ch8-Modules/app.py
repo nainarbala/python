@@ -1,7 +1,13 @@
-import sales as sale
-from sales import sales
+import sales1 as sale1
 
-sales()
+import sys
+
+sale1.sales()
 
 
-sale.shipping()
+sale1.shipping()
+
+
+sale1.sales()
+
+print(sys.path)
